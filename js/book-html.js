@@ -18,10 +18,10 @@ documnet.getElementsById("don-quixote-img").addEventListener
 ("click",function(){loadData("cervantes-data.html");
 changeOpacity();this.style.opacity = 1;});
 
-documnet.getElementsById("two-cities.jpg").addEventListener
+documnet.getElementsById("two-cities-img").addEventListener
 ("click",function(){loadData("dickens-data.html");
 changeOpacity();this.style.opacity = 1;});
 
-documnet.getElementsById("loort.jpg").addEventListener
+documnet.getElementsById("lort-img").addEventListener
 ("click",function(){loadData("tolkien-data.html");
 changeOpacity();this.style.opacity = 1;});
