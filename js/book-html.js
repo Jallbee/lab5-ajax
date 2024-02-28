@@ -6,8 +6,9 @@ function changeOpacity(){
 
 function loadData(filePath){
 	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function(){
 	if(this.readyState == 4 && this.status == 200)
-	{ document.getElementsById ("details").innerHTML = this.responseText;}
+	{ document.getElementsById ("details").innerHTML = this.responseText;}}
 ;
 xhttp.open("GET",filePath,true);
 xhttp.send();
