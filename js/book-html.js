@@ -14,14 +14,14 @@ xhttp.open("GET",filePath,true);
 xhttp.send();
 }
 
-documnet.getElementsById("donQuixoteImage").addEventListener
+documnet.getElementsById("don-quixote-img").addEventListener
 ("click",function(){loadData("cervantes-data.html");
 changeOpacity();this.style.opacity = 1;});
 
-documnet.getElementsById("taleOfTwoCitiesImage").addEventListener
+documnet.getElementsById("two-cities.jpg").addEventListener
 ("click",function(){loadData("dickens-data.html");
 changeOpacity();this.style.opacity = 1;});
 
-documnet.getElementsById("lordOfTheRingsImage").addEventListener
+documnet.getElementsById("loort.jpg").addEventListener
 ("click",function(){loadData("tolkien-data.html");
 changeOpacity();this.style.opacity = 1;});
