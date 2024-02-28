@@ -22,6 +22,6 @@ documnet.getElementsById("two-cities-img").addEventListener
 ("click",function(){loadData("dickens-data.html");
 changeOpacity();this.style.opacity = 1;});
 
-documnet.getElementsById("lort-img").addEventListener
+documnet.getElementsById("lotr-img").addEventListener
 ("click",function(){loadData("tolkien-data.html");
 changeOpacity();this.style.opacity = 1;});
